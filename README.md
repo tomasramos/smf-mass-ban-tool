@@ -32,8 +32,8 @@ The script:
 
 1. Open `smf_mass_email_ban_generator.py` and configure:
 
-   * `palabra` → the base string used to generate combinations
-   * `sufijo` → the email domain (e.g., `@gmail.com`)
+   * `email_account` → the base string used to generate combinations
+   * `email_domain` → the email domain (e.g., `@gmail.com`)
    * `id_ban_group` → an existing ID from the `smf_ban_groups` table
 
 2. Run the script:
